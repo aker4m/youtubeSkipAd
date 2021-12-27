@@ -1,1 +1,1 @@
-# youtubeSkipAd
+# youtubeSkipAd with functional programming

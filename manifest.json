@@ -1,0 +1,9 @@
+{
+  "name": "Youtube Skip Ad Shortcut",
+  "description": "Youtube Skip Ad Shortcut Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "youtubeSkipAd.js"
+  }
+}
