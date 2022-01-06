@@ -1,6 +1,6 @@
 const state = {
   type: "keyup",
-  keys: ["s", "S"],
+  keyCode: 83,
   classnames: [".ytp-ad-skip-button", ".ytp-ad-overlay-close-button"],
 };
 
@@ -12,7 +12,7 @@ const skipAdFn = (state) =>
     .filter((el) => el)
     .forEach(clickEl);
 const listener = (state) => (e) =>
-  state.keys.includes(e.key) && skipAdFn(state);
+  state.keyCode === e.keyCode && skipAdFn(state);
 const addEventListener = (state) =>
   document.addEventListener(state.type, listener(state));
 
