@@ -1,7 +1,11 @@
 const state = {
   type: "keyup",
   keyCode: 83,
-  classnames: [".ytp-ad-skip-button", ".ytp-ad-overlay-close-button"],
+  classnames: [
+    ".ytp-ad-skip-button",
+    ".ytp-ad-overlay-close-button",
+    "#dismiss-button",
+  ],
 };
 
 const querySelector = (selector) => document.querySelector(selector);
